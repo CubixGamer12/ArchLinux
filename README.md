@@ -1,21 +1,44 @@
-# ArchLinux
-Helpful commands
+# ArchLinux  
+Helpful Commands and Setup Notes
 
-hyprland skrypt instalacyjny odrazu skonfigurowany (tylko arch minimalna instalacja najlepiej): https://github.com/JaKooLit/Arch-Hyprland
-poradnik do instalacji: https://www.youtube.com/watch?v=lR7EtbVYWuc&t=540s
+---
 
-Optymalizacja gier na linux
+### 🖥️ Hyprland Installation (Arch Minimal)
 
-1. sudo pacman -S gamescope gamemode
-2. opcje uruchamiania gry i wkleic to: # gamemoderun gamescope -W 1920 -H 1080 -r 75 --force-grab-cursor -f -- %command%
+- **Installation Script:**  
+  [https://github.com/JaKooLit/Arch-Hyprland](https://github.com/JaKooLit/Arch-Hyprland)
 
-  r = odświerzanie monitora
-  W = Szerokość
-  H = Wysokość 
+- **Video Guide:**  
+  [YouTube – Hyprland Installation Tutorial](https://www.youtube.com/watch?v=lR7EtbVYWuc&t=540s)
 
-Sterowniki do drukarek:
-  1. sudo pacman -S cups
-  2. yay -S cnijfilter2 scangearmp2
-  3. sudo systemctl enable cups
-  4. sudo systemctl start cups
-  5. http://localhost:631
+---
+
+### 🎮 Game Optimization on Linux
+
+1. Install required packages:
+   ```bash
+   sudo pacman -S gamescope gamemode
+
+2. In the game’s launch options, paste:
+   ```bash
+   gamemoderun gamescope -W 1920 -H 1080 -r 75 --force-grab-cursor -f -- %command%
+
+---
+
+### 🖨️ Printer Drivers (Canon and More)
+
+1. Install CUPS:
+   ```bash
+   sudo pacman -S cups
+2. Install Canon printer and scanner drivers:
+   ```bash
+   yay -S cnijfilter2 scangearmp2
+3. Enable and start the CUPS service:
+   ```bash
+   sudo systemctl enable cups
+   sudo systemctl start cups
+4. Open the CUPS configuration in your browser:
+   ```bash
+   http://localhost:631
+
+---
