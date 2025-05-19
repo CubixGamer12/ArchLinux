@@ -42,3 +42,19 @@ Helpful Commands and Setup Notes
    http://localhost:631
 
 ---
+
+### 🖥️ Hyprland Weather Setup
+
+1. Open the Startup_Apps.conf
+   ```bash
+   /home/faniq/.config/hypr/UserConfigs/Startup_Apps.conf
+
+2. Add a line at the end
+   ```bash
+   exec-once = $UserScripts/Weather.sh
+
+3. Restart your computer
+
+
+---
+
