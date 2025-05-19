@@ -27,9 +27,9 @@ Helpful Commands and Setup Notes
 
 ---
 
-### 🎮 Game Optimization on Linux
+### 🎮 Game Optimization on Linux (It doesn't work on Hyprland)
 
-1. Install required packages:
+1. Install required packages: 
    ```bash
    sudo pacman -S gamescope gamemode
 
