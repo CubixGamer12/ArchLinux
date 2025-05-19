@@ -43,7 +43,7 @@ Helpful Commands and Setup Notes
 
 ---
 
-### 🖥️ Hyprland Weather Setup
+### 🖥️ Hyprland Weather Setup (KooL's Arch)
 
 1. Open the Startup_Apps.conf
    ```bash
