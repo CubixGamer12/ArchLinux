@@ -47,7 +47,7 @@ Helpful Commands and Setup Notes
 
 1. Open the Startup_Apps.conf
    ```bash
-   /home/faniq/.config/hypr/UserConfigs/Startup_Apps.conf
+   /home/username/.config/hypr/UserConfigs/Startup_Apps.conf
 
 2. Add a line at the end
    ```bash
