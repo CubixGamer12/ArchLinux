@@ -57,3 +57,10 @@ Helpful Commands and Setup Notes
 
 ---
 
+### 🍙 App Image Launcher
+
+1. Install CUPS:
+   ```bash
+   yay -S appimagelauncher
+
+---
