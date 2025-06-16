@@ -13,20 +13,6 @@ Helpful Commands and Setup Notes
 
 ---
 
-### 🌦 Hyprland Weather Setup (KooL's Arch)
-
-1. Open the Startup_Apps.conf
-   ```bash
-   /home/username/.config/hypr/UserConfigs/Startup_Apps.conf
-
-2. Add a line at the end
-   ```bash
-   exec-once = $UserScripts/Weather.sh
-
-3. Restart your computer
-
----
-
 ### 🎮 Game Optimization on Linux (It doesn't work on Hyprland)
 
 1. Install required packages: 
