@@ -50,3 +50,13 @@ Helpful Commands and Setup Notes
    yay -S appimagelauncher
 
 ---
+
+reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
+
+### 🔲 Windows Fix Time DualBoot
+
+1. Open Cmd as admin:
+   ```bash
+   reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
+
+---
